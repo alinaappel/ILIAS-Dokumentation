@@ -6,7 +6,7 @@ The goal is to improve the user experience by
 
 # Issues with the current arrow types and their usage
 
-When we roughly look over ILIAS we can already find many different forms of arrow icons, whether it is seen inside the mainbar, in the breadcrumb menue or in different kinds of buttons, such as the action button or different types of navigation buttons. When we start digging a little deeper inside the platform we found out that there are even more spots where arrow icons are used - also in places where it is important to question whether the implementation of an arrow icon is nessecary. By collecting all specific spots where an arrow is used, dividing them in logical groups and taking a look at the usability aspect, we noticed that there are many different usages and depictions of such an arrow, which can easily overwhelm the user. Many arrows have the same functionality while looking differently. In addition to that we took a look at the integration form of the arrow types. 
+Looking through ILIAS, you'll notice various arrow icons in different places, like the main bar, breadcrumb menu, and various buttons including the action button. As we explored further, we found even more places where arrows are used, making us wonder if they're all really necessary. By identifying and categorizing these specific instances of arrow usage and considering usability aspects, we noticed that many arrows serve the same purpose but look different. This inconsistency can confuse users. We also looked at how these different arrow types are integrated.
 
 # Group 1: Navigation arrows
 ## Test navigation
@@ -16,7 +16,7 @@ In the test area of ILIAS where you can navigate between the test content and qu
 ![test-nav](https://github.com/alinaappel/ILIAS-Dokumentation/assets/167314349/75186f3e-ede7-4816-98e5-f150cdbaf7bc)
 
 
-**Some thoughts:** This arrow icon is a very bulky depiction which occupies a lot of space inside the button area. This desturbs the harmony and throws off the balance between the label and the icon. In general it draws a lot of attention to itself and to the button and may distract the user from the test content.
+**Some thoughts:** The arrow icon currently used is quite bulky, taking up a significant amount of space within the button area. This disrupts the balance between the label and the icon, creating a visual imbalance. Overall, it attracts undue attention to the button, potentially diverting the user's focus away from the test content.
 
 **Integration:** This arrow is embedded via font means as a glyphicon.
 
@@ -26,7 +26,7 @@ In the survey area of ILIAS where you can navigate between questions you can fin
 
 ![survey](https://github.com/alinaappel/ILIAS-Dokumentation/assets/167314349/ff17ef89-841b-45de-928d-9ef874c326d1)
 
-**Some thoughts:** This arrow icon seems very static and old-fashioned when it comes to the look and feel of it. This is because the icon is embedded in the HTML as a value-text. Even though it serves the same purpose to navigate between questions, the icon is displayed completely differently than the test navigation icon.
+**Some thoughts:** The arrow icon appears rather static and outdated in terms of its look and feel, likely because it's embedded in the HTML as a value-text. While both icons aim to assist navigation between questions, they are displayed quite differently from the test navigation icon.
 
 **Integration:** This arrow is embedded via HTML value.
 
