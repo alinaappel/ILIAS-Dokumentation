@@ -1,12 +1,10 @@
-In this paper, we investigate which kinds of arrow types and icons ILIAS has and whether or not it is possible to shorten the amount of those.
-
-The goal is to improve the user experience by
-* sorting all types of arrows by their funcionality
-* reducing the overload of the different arrow types and symbols to achieve a consistent look throughout the platform
+In this paper, we examine the different types of arrow icons used in ILIAS and explore whether we can reduce their quantity. Our aim is to improve the user experience by organizing the arrows based on their functions and simplifying their variety to create a more consistent appearance across the platform.
 
 # Issues with the current arrow types and their usage
 
-Looking through ILIAS, you'll notice various arrow icons in different places, like the main bar, breadcrumb menu, and various buttons including the action button. As we explored further, we found even more places where arrows are used, making us wonder if they're all really necessary. By identifying and categorizing these specific instances of arrow usage and considering usability aspects, we noticed that many arrows serve the same purpose but look different. This inconsistency can confuse users. We also looked at how these different arrow types are integrated.
+As you navigate ILIAS, you'll come across different arrow icons in various spots, such as the main bar, breadcrumb menu, and different buttons like the action button. As we delved deeper, we discovered even more instances where arrows are used, prompting us to question their necessity.
+
+By pinpointing and organizing these specific uses of arrows and taking usability into account, we observed that many arrows serve similar functions but appear differently. This lack of consistency can be confusing for users. Additionally, we examined how these different arrow types are implemented.
 
 # Group 1: Navigation arrows
 ## Test navigation
