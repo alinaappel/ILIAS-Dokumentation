@@ -1,4 +1,4 @@
-In this paper, we examine the different types of arrow icons used in ILIAS and explore whether we can reduce their quantity. Our aim is to improve the user experience by organizing the arrows based on their functions and simplifying their variety to create a more consistent appearance across the platform.
+In this paper, we examine the different types of arrow icons used in ILIAS and explore whether we can reduce their quantity. Our aim is to improve the user experience by organizing the arrows based on their functions and simplifying their variety to create a more consistent appearance across the platform. Additionally, our goal is to make the styling of the system easier, more efficient, and thorough.
 
 # Issues with the current arrow types and their usage
 
@@ -48,7 +48,7 @@ To navigate between certain informations such as the dates in a calendar you can
 
 **Integration:** This arrow is embedded via font means as a glyphicon.
 
-# Results and recommendation for navigation arrows
+### Results and recommendation for navigation arrows
 
 This group can easily use a single arrow icon since all arrows are for navigation. Unlike the test and survey icons that take up a lot of space inside the button or compete with the button label, the lightbox and view controls use a simple arrow that works well everywhere. The recommendation for this group of arrows is to replace the test and survey arrows with the sleek arrow used in the lightbox and view controls sections.
 
@@ -71,9 +71,9 @@ In tables and menues you also have the opportunity to sort your results by alpha
 
 **Some thoughts:** This type of arrow doesn't require a specific direction, so the icon should be more adaptable, as it currently is. The arrow effectively represents its intended function.
 
-**Integration:** The arrow is a caret that's integrated using HTML and styled with CSS.
+**Integration:** The arrow is embedded via font. Stylings used: content: "⇵";
 
-# Results and recommendation for the sortation arrows
+### Results and recommendation for the sortation arrows
 
 Both icons should maintain their functionalities, whether indicating sorting direction or serving a more general purpose. A noticeable difference between the two icons is their distinct styling. While the first icon appears bulky and prominent, the second is delicate and slim. The styling should be harmonized to maintain a consistent look and feel.
 
@@ -104,7 +104,7 @@ Here you can see that there are some other cases where a hierarchy or a clickabl
 
 ![hierarchy3](https://github.com/alinaappel/ILIAS-Dokumentation/assets/167314349/26721056-4ef6-4fe3-b124-d15c215df87c)
 
-# Results and recommendation for hierarchy/tree arrows
+## Results and recommendation for hierarchy/tree arrows
 
 Both breadcrumbs and the arrows in the hierarchy and tree view serve the same function: to indicate a clickable path, whether it's to the right or downwards. Therefore, it's recommended to use a consistent icon for this purpose. To stay with the minimalistic and simple style, using the breadcrumb or the tree view icon at this point would be most appropriate.
 
@@ -146,7 +146,7 @@ The .ilc_Accordion - element is used when building content for ILIAS:
 
 **Integration:** This arrow is an SVG-file (image) which is used as an background-image (background-image: tree_col.svg).
 
-# Results and recommendation for dropdown arrows
+## Results and recommendation for dropdown arrows
 
 For dropdowns, an arrow icon isn't always essential. When it comes to accordions, there are various symbol designs to consider. A frequently used alternative is the plus icon instead of the arrow. Using a different icon instead of an arrow, as currently used in the accordion, has the advantage of reducing the risk of it being mistaken for a clickable link. Arrows pointing directly at labels can sometimes lead to confusion.
 
