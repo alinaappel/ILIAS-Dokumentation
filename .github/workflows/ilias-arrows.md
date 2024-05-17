@@ -48,7 +48,7 @@ To navigate between certain informations such as the dates in a calendar you can
 
 **Integration:** This arrow is embedded via font means as a glyphicon.
 
-### Results and recommendation for navigation arrows
+## Results and recommendation for navigation arrows
 
 This group can easily use a single arrow icon since all arrows are for navigation. Unlike the test and survey icons that take up a lot of space inside the button or compete with the button label, the lightbox and view controls use a simple arrow that works well everywhere. The recommendation for this group of arrows is to replace the test and survey arrows with the sleek arrow used in the lightbox and view controls sections.
 
@@ -73,7 +73,7 @@ In tables and menues you also have the opportunity to sort your results by alpha
 
 **Integration:** The arrow is embedded via font. Stylings used: content: "⇵";
 
-### Results and recommendation for the sortation arrows
+## Results and recommendation for the sortation arrows
 
 Both icons should maintain their functionalities, whether indicating sorting direction or serving a more general purpose. A noticeable difference between the two icons is their distinct styling. While the first icon appears bulky and prominent, the second is delicate and slim. The styling should be harmonized to maintain a consistent look and feel.
 
